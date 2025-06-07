@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Inventory-Management-System/static/css/main.9736982b.css",
+    "main.js": "/Inventory-Management-System/static/js/main.52350ebc.js",
+    "static/js/453.8ab44547.chunk.js": "/Inventory-Management-System/static/js/453.8ab44547.chunk.js",
+    "index.html": "/Inventory-Management-System/index.html",
+    "main.9736982b.css.map": "/Inventory-Management-System/static/css/main.9736982b.css.map",
+    "main.52350ebc.js.map": "/Inventory-Management-System/static/js/main.52350ebc.js.map",
+    "453.8ab44547.chunk.js.map": "/Inventory-Management-System/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9736982b.css",
+    "static/js/main.52350ebc.js"
+  ]
+}

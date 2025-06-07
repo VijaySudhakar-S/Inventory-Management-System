@@ -17,8 +17,11 @@ The project demonstrates CRUD operations, REST API design, responsive frontend U
 
 ## Tech Stack
 Frontend: React.js
+
 Backend: Node.js, Express.js
+
 Database: MongoDB
+
 Deployment: Render
 
 ---

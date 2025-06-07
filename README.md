@@ -30,7 +30,7 @@ Deployment: Render
 
 ### Prerequisites
 
-- Node.js and npm installed  
+- Node.js and npm installed
 - MongoDB running locally or use a cloud MongoDB URI  
 
 ### Backend Setup
@@ -38,16 +38,22 @@ Deployment: Render
 1. Navigate to backend folder:
 
 cd backend
+
 npm install
+
 MONGO_URI=your_mongodb_connection_string
+
 PORT=5000
+
 npm start
 
 ### Frontend Setup
 
-1. Navigate to frontend folder:
+2. Navigate to frontend folder:
 
 cd frontend
+
 npm install
+
 npm start
 

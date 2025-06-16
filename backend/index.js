@@ -43,6 +43,17 @@ app.get("/items/:id", async (req, res) => {
   }
 });
 
+app.delete("/items/:id", async (req, res) => {
+  try {
+    const deletedItem = await Item.findByIdAndDelete(req.params.id);
+    if (!deletedItem) return res.status(404).send("Item not found");
+    res.json({ message: "Item deleted", item: deletedItem });
+  } catch (err) {
+    console.error("Delete error:", err);
+    res.status(500).send("Server error");
+  }
+});
+
 app.post("/orders", async (req, res) => {
   const order = new Order(req.body);
   await order.save();
